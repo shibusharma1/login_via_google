@@ -1,0 +1,50 @@
+# Laravel .gitignore
+
+# Environment files
+.env
+.env.backup
+.env.production
+
+# Laravel storage (keep structure, ignore contents)
+storage/*.key
+storage/app/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+
+# Bootstrap cache
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# Vendor directory (Composer dependencies)
+/vendor
+
+# Node modules
+/node_modules
+
+# Build / Vite
+/public/build
+/public/hot
+
+# IDE / Editor files
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHPUnit cache
+.phpunit.result.cache
+
+# Debugging files
+npm-debug.log
+yarn-error.log
+
+# Misc
+*.log
